@@ -7,6 +7,6 @@ export const colors = {
   graylight: "#F3F4F6",
   graydark: "#a9a9a9",
   accent: "#fbcd77",
-  blue: "#2812C9",
+  blue: "#2c14dd",
   blueTransparent: "#210FA4",
 };
