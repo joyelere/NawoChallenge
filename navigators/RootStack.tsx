@@ -68,7 +68,7 @@ const RootStack: FunctionComponent = () => {
                   img={Avi}
                   imgStyle={{ width: 20, height: 20 }}
                   imgContainerStyle={{
-                    backgroundColor: colors.blueTransparent,
+                    backgroundColor: "#2812c9",
                     opacity: 0.6,
                   }}
                 />
@@ -77,7 +77,7 @@ const RootStack: FunctionComponent = () => {
                     img={SearchIcon}
                     imgStyle={{ width: 20, height: 20 }}
                     imgContainerStyle={{
-                      backgroundColor: colors.blueTransparent,
+                      backgroundColor: "#2812c9",
                       opacity: 0.6,
                     }}
                   />
