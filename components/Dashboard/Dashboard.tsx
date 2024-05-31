@@ -191,7 +191,7 @@ const Dashboard = () => {
               style={styles.progressBar}
             />
             <View style={styles.sapaStyle}>
-              <Ionicons name="settings-outline" size={20} />
+                <Entypo name="tripadvisor" size={20} color="#FFEA00" />
               <SmallText
                 textStyles={{ left: 10, fontSize: 11, color: colors.white }}
               >
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
 
     elevation: 5,
     width: 368,
-    height: 205,
+    height: 185,
     shadowColor: "transparent",
     marginTop: 50,
   },
@@ -346,6 +346,6 @@ const styles = StyleSheet.create({
   },
   sapaStyle: {
     flexDirection: "row",
-    marginTop: 30,
+    marginTop: 20,
   },
 });
