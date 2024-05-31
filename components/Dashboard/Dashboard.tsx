@@ -21,7 +21,7 @@ const Dashboard = () => {
             img={avater}
             imgStyle={{ width: 55, height: 55 }}
             imgContainerStyle={{
-              backgroundColor: "#F1F5F9",
+              backgroundColor: "#bdd6ff",
               height: 55,
               width: 55,
             }}
@@ -187,11 +187,11 @@ const Dashboard = () => {
             </SmallText>
             <ProgressBar
               progress={0.5}
-              theme={{ colors: { primary: "green" } }}
+              theme={{ colors: { primary: "#32fc65" } }}
               style={styles.progressBar}
             />
             <View style={styles.sapaStyle}>
-                <Entypo name="tripadvisor" size={20} color="#FFEA00" />
+                <Entypo name="tripadvisor" size={20} color="#fcd23c" />
               <SmallText
                 textStyles={{ left: 10, fontSize: 11, color: colors.white }}
               >
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     marginVertical: 5,
     marginHorizontal: 20,
     borderRadius: 25,
-    backgroundColor: colors.blueTransparent,
+    backgroundColor: "#2816a7",
     elevation: 5,
     width: 368,
     height: 335,
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     borderRadius: 25,
     // backgroundColor: colors.blueTransparent,
-    backgroundColor: colors.graydark,
+    backgroundColor: "#432dec",
 
     elevation: 5,
     width: 368,
@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     marginVertical: 5,
     marginHorizontal: 20,
     borderRadius: 15,
-    backgroundColor: colors.blueTransparent,
+    backgroundColor: "#2816a7",
     elevation: 5,
     width: 368,
     height: 95,
@@ -279,14 +279,14 @@ const styles = StyleSheet.create({
     position: "absolute",
     right: 10,
     top: 17,
-    backgroundColor: colors.graydark,
+    backgroundColor: "#2310b2",
     borderRadius: 15,
     height: 30,
     width: 30,
   },
 
   iconContainer2: {
-    backgroundColor: colors.graydark,
+    backgroundColor: "#5844ee",
     borderRadius: 10,
     height: 40,
     width: 40,
@@ -300,7 +300,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     right: 10,
     top: 29,
-    backgroundColor: colors.graydark,
+    backgroundColor: "#2310b2",
     borderRadius: 15,
     height: 30,
     width: 30,
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     right: 10,
     top: 16,
-    backgroundColor: colors.graydark,
+    backgroundColor: "#2d14e0",
     borderRadius: 15,
     height: 30,
     width: 30,
