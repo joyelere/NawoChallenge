@@ -201,11 +201,164 @@ const Dashboard = () => {
           </View>
         </View>
       </View>
-      <SmallText
+     <SmallText
         textStyles={{ top: 30, left: 20, fontSize: 13, fontWeight: "600" }}
       >
         Transactions
       </SmallText>
+      <View style={styles.boxContent4}>
+        <View style={styles.boxContent3Title}>
+          <View style={styles.iconContainer2b}>
+            <EvilIcons name="chevron-right" size={30} color={colors.white} />
+          </View>
+          <View style={styles.boxContent3Price}>
+            <SmallText
+              textStyles={{
+                fontSize: 13,
+                fontWeight: 600,
+                color: "#edebfd",
+              }}
+            >
+              Recent Transactions
+            </SmallText>
+            <View style={styles.boxContent4PriceA}>
+              <View style={styles.boxContainter4A}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 18,
+                    fontWeight: 600,
+                    color: "#005cee",
+                  }}
+                >
+                  J
+                </SmallText>
+              </View>
+              <View style={styles.boxContent4PriceA2}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: colors.white,
+                  }}
+                >
+                  John Ogaga
+                </SmallText>
+                <SmallText
+                  textStyles={{
+                    fontSize: 12,
+                    fontWeight: 400,
+                    marginTop: 3,
+                    color: "#b3aefb",
+                  }}
+                >
+                  Zenith Bank 12:03 AM
+                </SmallText>
+              </View>
+              <SmallText
+                textStyles={{
+                  fontSize: 14,
+                  fontWeight: 600,
+                  left: 60,
+                  marginTop: 10,
+                  color: "#05ef40",
+                }}
+              >
+                +N20,983
+              </SmallText>
+            </View>
+            <View style={styles.boxContent4PriceA}>
+              <View style={styles.boxContainter4A}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 18,
+                    fontWeight: 600,
+                    color: "#005cee",
+                  }}
+                >
+                  H
+                </SmallText>
+              </View>
+              <View style={styles.boxContent4PriceA2}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: colors.white,
+                  }}
+                >
+                  Habib Yogurt
+                </SmallText>
+                <SmallText
+                  textStyles={{
+                    fontSize: 12,
+                    fontWeight: 400,
+                    marginTop: 3,
+                    color: "#b3aefb",
+                  }}
+                >
+                  GT-Bank 12:03 AM
+                </SmallText>
+              </View>
+              <SmallText
+                textStyles={{
+                  fontSize: 14,
+                  fontWeight: 600,
+                  left: 80,
+                  marginTop: 10,
+                  color: "#eae8fd",
+                }}
+              >
+                -N20,983
+              </SmallText>
+            </View>
+            <View style={styles.boxContent4PriceA}>
+              <View style={styles.boxContainter4A}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 18,
+                    fontWeight: 600,
+                    color: "#005cee",
+                  }}
+                >
+                  H
+                </SmallText>
+              </View>
+              <View style={styles.boxContent4PriceA2}>
+                <SmallText
+                  textStyles={{
+                    fontSize: 14,
+                    fontWeight: 500,
+                    color: colors.white,
+                  }}
+                >
+                  Habib Yogurt
+                </SmallText>
+                <SmallText
+                  textStyles={{
+                    fontSize: 12,
+                    fontWeight: 400,
+                    marginTop: 3,
+                    color: "#b3aefb",
+                  }}
+                >
+                  Zenith Bank 12:03 AM
+                </SmallText>
+              </View>
+              <SmallText
+                textStyles={{
+                  fontSize: 14,
+                  fontWeight: 600,
+                  left: 60,
+                  marginTop: 10,
+                  color: "#eae8fd",
+                }}
+              >
+                -N20,983
+              </SmallText>
+            </View>
+          </View>
+        </View>
+      </View>
     </View>
   );
 };
@@ -253,6 +406,37 @@ const styles = StyleSheet.create({
     width: 368,
     height: 95,
     shadowColor: "transparent",
+  },
+
+  boxContent4: {
+    borderWidth: 0,
+    marginVertical: 5,
+    marginHorizontal: 20,
+    borderRadius: 25,
+    backgroundColor: "#432dec",
+    elevation: 5,
+    width: 368,
+    height: 240,
+    shadowColor: "transparent",
+    marginTop: 50,
+  },
+  boxContent4PriceA: {
+    flexDirection: "row",
+    marginTop: 15,
+  },
+
+  boxContainter4A: {
+    backgroundColor: "#eef2f8",
+    borderRadius: 25,
+    height: 45,
+    width: 45,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  boxContent4PriceA2: {
+    flexDirection: "column",
+    marginLeft: 14,
+    marginTop: 2,
   },
 
   boxContentTitle: {
