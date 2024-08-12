@@ -34,4 +34,4 @@ This project is a React Native implementation of the first screen from the homep
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-native-home-screen.git
+   git clone https://github.com/joyelere/NawoChallenge.git
